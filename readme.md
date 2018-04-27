@@ -10,3 +10,5 @@
 ##### 27/04/2018: 20:02 - 20:06:pool[create sessions controller]
 
 ##### 27/04/2018: 20:06 - 20:31:pool[create other controllers with actions]
+
+##### 27/04/2018: 20:31 - 20:53:pool[add session related methods to application controller and before_action to other controllers]
