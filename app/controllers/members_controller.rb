@@ -39,5 +39,9 @@ class MembersController < ApplicationController
             params.require(:member).permit(:username, :email, :password)
         end
         
+        def set_member
+            
+        end
+        
     
 end
