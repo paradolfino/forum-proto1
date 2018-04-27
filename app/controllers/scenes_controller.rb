@@ -11,4 +11,8 @@ class ScenesController < ApplicationController
     def new
         @scene = Scene.new
     end
+    
+    def create
+        @scene = Scene.new(scene_params)
+    end
 end
