@@ -1,1 +1,8 @@
 
+[generate basic models and migrations, set up relationships, for member/post/scene]
+### 27/04/2018[16:33 - 16:55]:
+* install and configure postgresql
+* create member model
+* create scene model
+* create post model
+
