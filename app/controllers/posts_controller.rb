@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
     
+    before_action :set_post
+    
     def index
        @posts = Post.all 
     end
