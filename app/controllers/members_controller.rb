@@ -32,6 +32,12 @@ class MembersController < ApplicationController
             render 'edit'
         end
     end
+    
+    private
+        
+        def member_params
+            params.require(:member).permit(:username, :email, :password)
+        end
         
     
 end
