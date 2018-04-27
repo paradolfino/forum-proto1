@@ -16,4 +16,16 @@ class PostsController < ApplicationController
        @post = Post.new(post_params) 
     end
     
+    def edit
+        
+    end
+    
+    def update
+       if @post.update(post_params)
+           
+       else
+           
+       end
+    end
+    
 end
