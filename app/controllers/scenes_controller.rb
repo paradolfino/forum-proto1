@@ -37,5 +37,11 @@ class ScenesController < ApplicationController
         @scene.destroy
     end
     
+    private
+    
+        def scene_params
+           params.require(:scene).permit(:name, :description) 
+        end
+    
     
 end
