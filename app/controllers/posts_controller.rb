@@ -14,6 +14,11 @@ class PostsController < ApplicationController
     
     def create
        @post = Post.new(post_params) 
+       if @post.save
+           
+       else
+           
+       end
     end
     
     def edit
