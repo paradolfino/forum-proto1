@@ -26,7 +26,10 @@ class MembersController < ApplicationController
     end
     
     def update
-        
+        if @member.update(member_params)
+            redirect_to @member
+        else
+            render 'edit'
     end
         
     
