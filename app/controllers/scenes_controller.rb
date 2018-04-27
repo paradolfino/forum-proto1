@@ -14,6 +14,11 @@ class ScenesController < ApplicationController
     
     def create
         @scene = Scene.new(scene_params)
+         if @scene.save(scene_params)
+           redirect '/' 
+        else
+            render 'new'
+        end
     end
     
     def edit
