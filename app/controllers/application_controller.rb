@@ -2,15 +2,15 @@ class ApplicationController < ActionController::Base
     helper_method :current_member 
 
     def current_member 
-        @current_user ||= User.find(session[:user_id]) if session[:user_id] 
+        @current_member ||= User.find(session[:member_id]) if session[:member_id] 
     end
   
-    def require_user 
-  	   redirect_to '/login' unless current_user 
+    def require_member 
+  	   redirect_to '/login' unless current_member 
     end
 	
-    def require_same_user(user)
-	    if current_user != user
+    def require_same_member(member)
+	    if current_member != member
     	   flash[:notice] = "You don't have the right to view this!"
     	   redirect_to '/'
 	    end
