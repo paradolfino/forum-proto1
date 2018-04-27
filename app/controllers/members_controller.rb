@@ -13,7 +13,12 @@ class MembersController < ApplicationController
     end
     
     def create
-       @member = Member.new(member_params) 
+       @member = Member.new(member_params)
+       if @member.save
+           
+       else
+           
+       end
     end
         
     
