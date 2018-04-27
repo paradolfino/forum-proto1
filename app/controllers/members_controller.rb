@@ -30,6 +30,7 @@ class MembersController < ApplicationController
             redirect_to @member
         else
             render 'edit'
+        end
     end
         
     
