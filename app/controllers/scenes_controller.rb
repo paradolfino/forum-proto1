@@ -43,5 +43,8 @@ class ScenesController < ApplicationController
            params.require(:scene).permit(:name, :description) 
         end
     
+        def set_scene
+            
+        end
     
 end
