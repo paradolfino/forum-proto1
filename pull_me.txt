@@ -1,1 +1,8 @@
 
+[set up initial project, controllers, sessions, models, validations, routes]
+### 27/04/2018[20:02 - 21:10]:
+* create sessions controller
+* create other controllers with actions
+* add session related methods to application controller and before_action to other controllers
+* set up validations and routes
+

@@ -12,3 +12,5 @@
 ##### 27/04/2018: 20:06 - 20:31:pool[create other controllers with actions]
 
 ##### 27/04/2018: 20:31 - 20:53:pool[add session related methods to application controller and before_action to other controllers]
+
+##### 27/04/2018: 20:53 - 21:10:pool[set up validations and routes]
