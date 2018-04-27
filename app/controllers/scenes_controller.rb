@@ -1,5 +1,7 @@
 class ScenesController < ApplicationController
     
+    before_action :set_scene, only: [:show, :edit, :update, :destroy]
+    
     def index
        @scenes = Scene.all 
     end
