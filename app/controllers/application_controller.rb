@@ -18,6 +18,8 @@ class ApplicationController < ActionController::Base
     
     def require_same_poster(poster)
         if current_member.id != poster.member_id
+            flash[:notice] = "You don't have the right to view this!"
+    	    redirect_to '/'
         end
     end
 end
