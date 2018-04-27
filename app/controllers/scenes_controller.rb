@@ -21,6 +21,8 @@ class ScenesController < ApplicationController
     end
     
     def update
-        
+        if @scene.update(scene_params)    
     end
+    
+    
 end
