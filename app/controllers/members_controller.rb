@@ -40,7 +40,7 @@ class MembersController < ApplicationController
         end
         
         def set_member
-            
+           @member = Member.find(params[:id]) 
         end
         
     
