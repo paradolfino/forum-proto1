@@ -17,7 +17,7 @@ class ApplicationController < ActionController::Base
     end
     
     def require_same_poster(poster)
-        if current_member.id != poster.id
+        if current_member.id != poster.member_id
         end
     end
 end
