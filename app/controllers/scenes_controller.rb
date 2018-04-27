@@ -15,4 +15,12 @@ class ScenesController < ApplicationController
     def create
         @scene = Scene.new(scene_params)
     end
+    
+    def edit
+        
+    end
+    
+    def update
+        
+    end
 end
