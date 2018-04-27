@@ -33,5 +33,9 @@ class ScenesController < ApplicationController
         end
     end
     
+    def destroy
+        @scene.destroy
+    end
+    
     
 end
