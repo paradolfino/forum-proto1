@@ -6,3 +6,5 @@
 ##### 27/04/2018: 16:48 - 16:52:pool[create scene model]
 
 ##### 27/04/2018: 16:52 - 16:55:pool[create post model]
+
+##### 27/04/2018: 20:02 - 20:06:pool[create sessions controller]
