@@ -35,6 +35,10 @@ class MembersController < ApplicationController
         end
     end
     
+    def destroy
+        
+    end
+    
     private
         
         def member_params
