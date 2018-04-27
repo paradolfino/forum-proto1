@@ -4,4 +4,13 @@ class MembersController < ApplicationController
        @members = Member.all 
     end
     
+    def show
+        
+    end
+    
+    def new
+       @member = Member.new 
+    end
+        
+    
 end
