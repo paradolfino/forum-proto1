@@ -15,4 +15,9 @@ class ApplicationController < ActionController::Base
     	   redirect_to '/'
 	    end
     end
+    
+    def require_same_poster(poster)
+        if current_member.id != poster.id
+        end
+    end
 end
