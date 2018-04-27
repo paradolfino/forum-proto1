@@ -24,7 +24,7 @@ class ScenesController < ApplicationController
         if @scene.update(scene_params)
            redirect '/' 
         else
-            
+            render 'edit'
         end
     end
     
