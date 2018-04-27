@@ -7,4 +7,8 @@ class ScenesController < ApplicationController
     def show
         
     end
+    
+    def new
+        @scene = Scene.new
+    end
 end
