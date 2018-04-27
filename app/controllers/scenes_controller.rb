@@ -22,7 +22,7 @@ class ScenesController < ApplicationController
     
     def update
         if @scene.update(scene_params)
-            
+           redirect '/' 
         else
             
         end
