@@ -17,7 +17,7 @@ class MembersController < ApplicationController
        if @member.save
           redirect_to '/' 
        else
-           
+           render 'new'
        end
     end
         
