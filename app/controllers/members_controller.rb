@@ -25,7 +25,7 @@ class MembersController < ApplicationController
     end
     
     def edit
-        
+        require_same_member(@member)
     end
     
     def update
