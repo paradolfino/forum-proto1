@@ -1,5 +1,5 @@
 class Member < ApplicationRecord
-    after_create :set_role
+    after_initialize :set_role
     has_secure_password
     has_many :posts, dependent: :destroy
     validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i, :on => :create
