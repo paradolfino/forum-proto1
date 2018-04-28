@@ -18,3 +18,5 @@
 ##### 28/04/2018: 20:47 - 21:02:pool[set up roles for users]
 
 ##### 28/04/2018: 21:02 - 21:06:pool[set up friendly id for roles]
+
+##### 28/04/2018: 21:06 - 21:17:pool[set up roles controller with actions]
