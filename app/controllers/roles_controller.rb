@@ -10,6 +10,8 @@ class RolesController < ApplicationController
     if @role.save(role_params)
       redirect_to '/'
     else
+      render 'new'
+    end
   end
 
   def edit
