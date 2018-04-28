@@ -8,6 +8,6 @@ class Member < ApplicationRecord
     validates :password, presence: true, length: { minimum: 8 }
     
     def set_role
-        self.role_id = Role.where(title: "Member")
+        self.role_id = Role.last.id
     end
 end
