@@ -8,6 +8,8 @@ class RolesController < ApplicationController
   def create
     @role = Role.new(role_params)
     if @role.save(role_params)
+      redirect_to '/'
+    else
   end
 
   def edit
