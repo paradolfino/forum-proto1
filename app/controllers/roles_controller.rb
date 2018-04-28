@@ -13,6 +13,11 @@ class RolesController < ApplicationController
   end
 
   def update
+    if @role.update(role_params)
+      
+    else
+      
+    end
   end
 
   def destroy
