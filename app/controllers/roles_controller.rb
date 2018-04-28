@@ -26,5 +26,6 @@ class RolesController < ApplicationController
   end
 
   def destroy
+    @role.destroy
   end
 end
