@@ -1,5 +1,6 @@
 class RolesController < ApplicationController
   def new
+    @role = Role.new
   end
 
   def create
