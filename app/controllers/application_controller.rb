@@ -22,4 +22,8 @@ class ApplicationController < ActionController::Base
     	    redirect_to '/'
         end
     end
+    
+    def require_admin
+        redirect_to '/login' unless current_member.role.title = "admin"
+    end
 end
