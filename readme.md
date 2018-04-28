@@ -16,3 +16,5 @@
 ##### 27/04/2018: 20:53 - 21:10:pool[set up validations and routes]
 
 ##### 28/04/2018: 20:47 - 21:02:pool[set up roles for users]
+
+##### 28/04/2018: 21:02 - 21:06:pool[set up friendly id for roles]
