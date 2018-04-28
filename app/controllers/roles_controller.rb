@@ -32,7 +32,7 @@ class RolesController < ApplicationController
   private
   
     def role_params
-      
+      params.require(:role).permit(:title)
     end
   
     def set_role
