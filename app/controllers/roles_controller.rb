@@ -1,4 +1,5 @@
 class RolesController < ApplicationController
+  before_action :set_role
   def new
     @role = Role.new
   end
