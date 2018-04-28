@@ -32,6 +32,6 @@ class RolesController < ApplicationController
   private
   
     def set_role
-      
+      @role = Role.friendly.find(params[:id])
     end
 end
