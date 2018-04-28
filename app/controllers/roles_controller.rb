@@ -28,4 +28,10 @@ class RolesController < ApplicationController
   def destroy
     @role.destroy
   end
+  
+  private
+  
+    def set_role
+      
+    end
 end
