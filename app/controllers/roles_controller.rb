@@ -7,6 +7,7 @@ class RolesController < ApplicationController
 
   def create
     @role = Role.new(role_params)
+    if @role.save(role_params)
   end
 
   def edit
