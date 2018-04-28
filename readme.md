@@ -20,3 +20,5 @@
 ##### 28/04/2018: 21:02 - 21:06:pool[set up friendly id for roles]
 
 ##### 28/04/2018: 21:06 - 21:17:pool[set up roles controller with actions]
+
+##### 28/04/2018: 21:17 - 21:48:pool[set up require_admin method in application controller]

@@ -1,1 +1,8 @@
 
+[set up role model, roles controller, friendly_id for role model, and fix password_digest]
+### 28/04/2018[20:47 - 21:48]:
+* set up roles for users
+* set up friendly id for roles
+* set up roles controller with actions
+* set up require_admin method in application controller
+
