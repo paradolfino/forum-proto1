@@ -1,8 +1,8 @@
 
-[set up role model, roles controller, friendly_id for role model, and fix password_digest]
-### 28/04/2018[20:47 - 21:48]:
-* set up roles for users
-* set up friendly id for roles
-* set up roles controller with actions
-* set up require_admin method in application controller
+[finish implement require_admin, create blank views for all necessary controller actions, create comment model and controller, prune controller actions]
+### 01/05/2018[14:26 - 15:00]:
+* implement require_admin method in controllers
+* begin creation of views
+* create comments model and controller with actions, reference posts with belongs_to
+* prune controllers and views for unnecessary actions
 
