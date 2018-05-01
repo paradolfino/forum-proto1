@@ -1,7 +1,1 @@
 
-[create basic scene view content, create a debug nav bar on application layout]
-### 01/05/2018[15:14 - 15:44]:
-* begin work on scene views
-* disable authorization methods in controllers temporarily
-* create temp nav bar for testing on application layout
-
