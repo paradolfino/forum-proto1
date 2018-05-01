@@ -11,7 +11,7 @@ class CommentsController < ApplicationController
     if @comment.save
       redirect_to scene_posts_path
     else
-      
+      render 'new'
     end
   end
 
