@@ -4,5 +4,6 @@
     <div class="card">
         <%= @posts.each do |i| %>
             <h4><%= i.title %></h4>
+            <p><%= i.content.truncate(27, separator: ' ') %></p>
     </div>
 </div>
