@@ -9,7 +9,7 @@ class CommentsController < ApplicationController
   def create
     @comment = Comment.new(comment_params)
     if @comment.save
-      redirect_to @comment.post
+      redirect_to scene_posts_path
     else
       
     end
