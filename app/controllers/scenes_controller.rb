@@ -8,7 +8,7 @@ class ScenesController < ApplicationController
     end
     
     def show
-        
+        @posts = @scene.posts
     end
     
     def new
