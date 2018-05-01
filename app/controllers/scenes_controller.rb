@@ -1,7 +1,7 @@
 class ScenesController < ApplicationController
     
     before_action :set_scene, only: [:show, :edit, :update, :destroy]
-    before_action :require_member, only: [:new, :edit, :destroy]
+    before_action :require_admin
     
     def index
        @scenes = Scene.all 
