@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   delete '/logout' => 'sessions#destroy'
   resources :scenes do
      resources :posts do
-       
+       resources :comments
      end
   end
   
