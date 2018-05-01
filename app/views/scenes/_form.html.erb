@@ -1,3 +1,5 @@
 <div class="container">
-    <%= form_for :scene %>
+    <%= form_for :scene do |f| %>
+        <%= f.label :name %>
+        <%= f.text_field :name, placeholder: "Fill Me Out"
 </div>
