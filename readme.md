@@ -34,3 +34,5 @@
 ##### 01/05/2018: 15:14 - 15:37:pool[begin work on scene views]
 
 ##### 01/05/2018: 15:37 - 15:40:pool[disable authorization methods in controllers temporarily]
+
+##### 01/05/2018: 15:40 - 15:44:pool[create temp nav bar for testing on application layout]
