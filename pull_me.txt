@@ -1,1 +1,8 @@
 
+[finish implement require_admin, create blank views for all necessary controller actions, create comment model and controller, prune controller actions]
+### 01/05/2018[14:26 - 15:00]:
+* implement require_admin method in controllers
+* begin creation of views
+* create comments model and controller with actions, reference posts with belongs_to
+* prune controllers and views for unnecessary actions
+
