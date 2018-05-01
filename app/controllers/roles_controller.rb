@@ -1,6 +1,6 @@
 class RolesController < ApplicationController
   before_action :set_role, only: [:edit, :update, :destroy]
-  before_action :require_admin
+  #before_action :require_admin
   
   def new
     @role = Role.new

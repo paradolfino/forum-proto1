@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
     
     before_action :set_post, only: [:show, :edit, :update, :destroy]
-    before_action :require_member, only: [:new, :edit, :destroy]
+    #before_action :require_member, only: [:new, :edit, :destroy]
     
     def show
         @comments = @post.comments
@@ -21,7 +21,7 @@ class PostsController < ApplicationController
     end
     
     def edit
-        require_same_poster(@post)
+        #require_same_poster(@post)
     end
     
     def update
