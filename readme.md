@@ -24,3 +24,5 @@
 ##### 28/04/2018: 21:17 - 21:48:pool[set up require_admin method in application controller]
 
 ##### 01/05/2018: 14:26 - 14:34:pool[implement require_admin method in controllers]
+
+##### 01/05/2018: 14:34 - 14:40:pool[begin creation of views]
