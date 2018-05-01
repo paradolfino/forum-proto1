@@ -21,7 +21,7 @@ class PostsController < ApplicationController
     end
     
     def edit
-        require_same_poster(@post)
+        #require_same_poster(@post)
     end
     
     def update
