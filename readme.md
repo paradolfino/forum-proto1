@@ -30,3 +30,5 @@
 ##### 01/05/2018: 14:40 - 14:55:pool[create comments model and controller with actions, reference posts with belongs_to]
 
 ##### 01/05/2018: 14:55 - 15:00:pool[prune controllers and views for unnecessary actions]
+
+##### 01/05/2018: 15:14 - 15:37:pool[begin work on scene views]
