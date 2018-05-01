@@ -20,7 +20,11 @@ class CommentsController < ApplicationController
   end
 
   def update
-    
+    if @comment.update(comment_params)
+      redirect_to scene_posts_path
+    else
+      render 'new'
+    end
   end
 
   def destroy
