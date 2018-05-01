@@ -26,3 +26,5 @@
 ##### 01/05/2018: 14:26 - 14:34:pool[implement require_admin method in controllers]
 
 ##### 01/05/2018: 14:34 - 14:40:pool[begin creation of views]
+
+##### 01/05/2018: 14:40 - 14:55:pool[create comments model and controller with actions, reference posts with belongs_to]
