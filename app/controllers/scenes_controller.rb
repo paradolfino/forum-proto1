@@ -18,7 +18,7 @@ class ScenesController < ApplicationController
     def create
         @scene = Scene.new(scene_params)
         if @scene.save(scene_params)
-            redirect '/' 
+            redirect_to '/' 
         else
             render 'new'
         end
@@ -30,7 +30,7 @@ class ScenesController < ApplicationController
     
     def update
         if @scene.update(scene_params)
-           redirect '/' 
+           redirect_to '/' 
         else
             render 'edit'
         end
