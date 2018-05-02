@@ -4,7 +4,7 @@ class PostsController < ApplicationController
     #before_action :require_member, only: [:new, :edit, :destroy]
     
     def show
-        @comments = @post.comments
+        
     end
     
     def new
