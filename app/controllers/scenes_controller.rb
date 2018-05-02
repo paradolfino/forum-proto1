@@ -47,7 +47,7 @@ class ScenesController < ApplicationController
         end
     
         def set_scene
-            
+            @scene = Scene.find(params[:id])
         end
     
 end
