@@ -2,7 +2,7 @@
 <p><%= @scene.description %></p>
 <div class="container">
     <div class="card">
-        <%= @scene.comments.each do |i| %>
+        <%= @scene.posts.each do |i| %>
             <h4><%= i.title %></h4>
             <p><%= i.content.truncate(27, separator: ' ') %></p>
             <small><%= i.member.username %></small>
