@@ -6,6 +6,6 @@
             <h4><%= i.title %></h4>
             <p><%= i.content.truncate(27, separator: ' ') %> content</p>
             <small><%= i.member.username %> username</small>
-        <% end %>
+        <% end if @scene.posts%>
     </div>
 </div>
