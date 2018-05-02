@@ -20,7 +20,7 @@ class RolesController < ApplicationController
 
   def update
     if @role.update(role_params)
-      redirect '/'
+      redirect_to '/'
     else
       render 'edit'
     end
