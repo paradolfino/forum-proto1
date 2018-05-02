@@ -64,7 +64,7 @@ class GitDeclare
     def self.exit(exit_type, pool, branch)
         case exit_type
         when "new"
-            GitDeclare.atomic(nil, pool)
+            GitDeclare.atomic(nil, pool, nil)
             GitDeclare.start
         when "reset"
             puts "Wiping commits and exiting"

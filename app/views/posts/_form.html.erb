@@ -1,0 +1,10 @@
+<div class="container">
+    <%= form_for @post do |f| %>
+        <%= f.label :title%>
+        <p><%= f.text_field :title, placeholder: "Fill Me Out" %></p>
+        
+        <%= f.label :content %>
+        <p><%= f.text_field :content, placeholder: "Fill Me Out" %></p>
+        <%= f.submit "Post" %>
+    <% end %>
+</div>

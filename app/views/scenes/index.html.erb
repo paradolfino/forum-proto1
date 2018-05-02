@@ -2,7 +2,7 @@
 <div class="container">
     <div class="card">
         <% @scenes.each do |i| %>
-            <h4><%= i.name %></h4>
+            <h4><%= link_to i.name, scene_path(i) %></h4>
         <% end %>
     </div>
 </div>

@@ -1,9 +1,10 @@
 <div class="container">
     <%= form_for @scene do |f| %>
         <%= f.label :name %>
-        <%= f.text_field :name, placeholder: "Fill Me Out" %>
+        <p><%= f.text_field :name, placeholder: "Fill Me Out" %></p>
+        
         <%= f.label :description %>
-        <%= f.text_field :description, placeholder: "Fill Me Out" %>
+        <p><%= f.text_field :description, placeholder: "Fill Me Out" %></p>
         <%= f.submit "Add Scene" %>
     <% end %>
 </div>

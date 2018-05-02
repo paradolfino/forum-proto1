@@ -1,1 +1,6 @@
 
+[switch dev db to sqlite3 due to configuration issues with pg, fix syntax errors in controllers and views, create basic post views, test]
+### 02/05/2018[16:30 - 16:59]:
+* begin create views for posts
+* test
+

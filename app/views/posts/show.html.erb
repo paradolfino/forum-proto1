@@ -1,0 +1,11 @@
+<h3><%= @post.name %></h3>
+<p><%= @post.description %></p>
+<div class="container">
+    <div class="card">
+        <%= @post.comments.each do |i| %>
+            <h4><%= i.post.title %></h4>
+            <p><%= i.content %> content</p>
+            <small><%= i.member.username %> username</small>
+        <% end %>
+    </div>
+</div>
