@@ -2,7 +2,7 @@
 <p><%= @post.description %></p>
 <div class="container">
     <div class="card">
-        <%= @comments.each do |i| %>
+        <%= @post.comments.each do |i| %>
             <h4><%= i.post.title %></h4>
             <p><%= i.content %></p>
             <small><%= i.member.username %></small>
